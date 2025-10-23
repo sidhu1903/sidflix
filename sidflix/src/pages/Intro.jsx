@@ -26,7 +26,7 @@ export default function Intro() {
     <div
       className="relative flex flex-col items-center justify-center h-screen text-white overflow-hidden bg-black"
       style={{
-        backgroundImage: `url('https://img.freepik.com/premium-photo/3d-render-space-galaxy-cloud-cosmos-realistic-illustration-background_52369-183.jpg')`,
+        backgroundImage: `url('https://wallpapercave.com/wp/wp8962940.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -76,3 +76,4 @@ export default function Intro() {
     </div>
   )
 }
+
