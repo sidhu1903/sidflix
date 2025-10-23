@@ -7,12 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        neon: '#00bfff',
+        neon: '#ffffff',
       },
       boxShadow: {
-        neon: '0 0 20px #00bfff',
+        neon: '0 0 20px #ffffff',
       },
     },
   },
   plugins: [],
 }
+
