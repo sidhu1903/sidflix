@@ -19,3 +19,23 @@ body {
   overflow-x: hidden;
 }
 
+/* Signature animation for Sidflix logo */
+.signature-text {
+  position: relative;
+  display: inline-block;
+  animation: signatureFade 3s ease forwards;
+}
+
+@keyframes signatureFade {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
