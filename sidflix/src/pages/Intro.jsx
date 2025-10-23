@@ -36,13 +36,17 @@ export default function Intro() {
 
       {/* SIDFLIX Title */}
       <motion.h1
-        className="relative text-8xl md:text-9xl font-bold neon-text select-none uppercase tracking-wider z-10"
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5, ease: 'easeOut' }}
+  className="relative text-8xl md:text-9xl font-extrabold select-none uppercase tracking-[0.3em] text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400 drop-shadow-[0_0_25px_rgba(255,255,255,0.8)]"
+  initial={{ opacity: 0, scale: 0.9 }}
+  animate={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 1.5, ease: 'easeOut' }}
+  style={{ fontFamily: "'Orbitron', sans-serif" }}
       >
-        SIDFLIX
-      </motion.h1>
+  SIDFLIX
+  {/* Optional subtle shimmer overlay */}
+  <span className="absolute inset-0 animate-pulse bg-gradient-to-r from-transparent via-white/20 to-transparent"></span>
+</motion.h1>
+
 
       {/* Input form */}
       <AnimatePresence>
@@ -76,4 +80,5 @@ export default function Intro() {
     </div>
   )
 }
+
 
