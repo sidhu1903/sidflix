@@ -17,12 +17,18 @@ export default function Navbar() {
     >
       {/* Sidflix Logo */}
       <motion.h1
-        className="text-2xl md:text-3xl font-bold neon-text cursor-pointer select-none"
-        whileHover={{ scale: 1.05 }}
-        onClick={handleBack}
+  className="text-4xl md:text-5xl font-bold neon-text cursor-pointer select-none tracking-wide signature-text"
+  whileHover={{ scale: 1.05 }}
+  onClick={handleBack}
+  style={{
+    fontFamily: "'Great Vibes', cursive",
+    letterSpacing: '2px',
+    color: '#ffffff',
+  }}
       >
-        Sidflix
-      </motion.h1>
+  Sidflix
+</motion.h1>
+
 
       {/* Back Button */}
       <motion.button
@@ -35,3 +41,4 @@ export default function Navbar() {
     </motion.nav>
   )
 }
+
