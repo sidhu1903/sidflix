@@ -28,12 +28,12 @@ export default function Intro() {
     <div className="flex flex-col items-center justify-center h-screen bg-black text-white overflow-hidden">
       {/* Sidflix fade-in animation */}
       <motion.h1
-        className="text-6xl md:text-8xl font-bold neon-text select-none"
+        className="text-7xl md:text-9xl font-bold neon-text select-none"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5, ease: 'easeOut' }}
       >
-        Sidflix
+        SIDFLIX
       </motion.h1>
 
       {/* Input appears after animation */}
@@ -68,3 +68,4 @@ export default function Intro() {
     </div>
   )
 }
+
